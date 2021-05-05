@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+#heading {
+  background-color: #03989e;
+}
+.my-name {
+  text-align: center;
+  padding: 15%;
+}
+h1 {
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+  display: inline-block;
+  font-size: 3rem;
+}
+.gr-img1,
+.gr-img2 {
+  width: 5%;
+  height: 5%;
+  position: relative;
+  top: 0.7rem;
+}
+.gr-img2 {
+  transform: rotate(180deg);
+}
+.owl-img {
+  width: 7%;
+  position: absolute;
+  left: 2rem;
+  bottom: 8rem;
+}
+.nav {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  padding: 2rem;
+}
+.nav-item {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+}
+.nav-link {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #055658;
+}
+#aboutMe {
+  background-color: #fff;
+  padding: 15%;
+}
