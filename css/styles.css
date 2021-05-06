@@ -3,33 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #heading {
+  background-image: url("../images/crystal-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #03989e;
-}
-.my-name {
-  text-align: center;
-  padding: 15%;
-}
-h1 {
-  color: #fff;
-  font-family: "Source Code Pro", monospace;
-  display: inline-block;
-  font-size: 3rem;
-}
-.gr-img1,
-.gr-img2 {
-  width: 5%;
-  height: 5%;
-  position: relative;
-  top: 0.7rem;
-}
-.gr-img2 {
-  transform: rotate(180deg);
-}
-.owl-img {
-  width: 7%;
-  position: absolute;
-  left: 2rem;
-  bottom: 8rem;
 }
 .nav {
   position: absolute;
@@ -49,7 +26,36 @@ h1 {
 .nav-link:hover {
   color: #055658;
 }
-#aboutMe {
+.my-name {
+  text-align: center;
+  padding: 15% 15% 10%;
+}
+h1 {
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+  display: inline-block;
+  font-size: 3rem;
+}
+.gr-icon {
+  color: #393e46;
+  padding: 1rem;
+  position: relative;
+  top: 0.3rem;
+}
+.gr-icon:hover {
+  color: black;
+}
+.owl-img {
+  width: 7%;
+  position: relative;
+  left: 2rem;
+  display: block;
+}
+#work {
   background-color: #fff;
+  padding: 15%;
+}
+#footer {
+  background-color: #03989e;
   padding: 15%;
 }
