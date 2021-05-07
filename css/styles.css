@@ -78,7 +78,44 @@ h1:hover > .gr-icon {
 .perf-logo {
   width: 40%;
 }
-#footer {
+#tech {
   background-color: #03989e;
+  background-image: url("../images/tech-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 10%;
+}
+.tech-title {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.tech-head {
+  color: #fff;
+}
+.tech-card {
+  margin: 4% 8%;
+  width: 15%;
+  height: 12rem;
+  text-align: center;
+  display: inline-block;
+}
+.tech-name {
+  border-radius: 2rem 2rem 0 0;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem 0.05rem #393e46;
+  padding: 3rem 1rem;
+}
+.tech-name h3,
+.tech-desc p {
+  margin: 0;
+}
+.tech-desc {
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 0 0.5rem 0.05rem #393e46;
+  background-color: #51c4d3;
+  padding: 1rem;
+}
+#footer {
+  background-color: #fff;
   padding: 15%;
 }
