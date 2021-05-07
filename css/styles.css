@@ -118,27 +118,27 @@ h1:hover > .gr-icon {
 }
 #protocols {
   background-color: #fff;
-  padding: 5% 10%;
-  padding-top: 3%;
+  padding: 3% 10% 5%;
 }
 .protocol-title {
   font-size: 2.5rem;
   color: #055658;
 }
+.flex-protocol {
+  display: flex;
+  flex-flow: row wrap;
+}
 .protocol-div {
   width: 20%;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin: 3% 5%;
 }
 .fa-caret-right {
-  display: inline-block;
-  position: relative;
-  top: 10px;
   margin-right: 0.5rem;
   color: #055658;
 }
 .protocol-box {
-  display: inline-block;
   background-color: #aad8d3;
   width: 70%;
   height: 3rem;
@@ -148,7 +148,7 @@ h1:hover > .gr-icon {
   padding: 0.5rem;
 }
 .protocol-box p {
-  margin-left: 1.5rem;
+  padding-left: 1.5rem;
   font-weight: bold;
 }
 #footer {
