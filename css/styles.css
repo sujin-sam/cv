@@ -42,18 +42,41 @@ h1 {
   position: relative;
   top: 0.3rem;
 }
-.gr-icon:hover {
+h1:hover > .gr-icon {
   color: black;
 }
 .owl-img {
-  width: 7%;
+  width: 5%;
   position: relative;
   left: 2rem;
   display: block;
 }
 #work {
   background-color: #fff;
-  padding: 15%;
+  padding: 10% 15%;
+}
+.work-div {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+}
+.role-desc {
+  font-size: 1.5rem;
+}
+.role,
+.exp {
+  color: #00adb5;
+  font-weight: bold;
+}
+.perf-logo-div {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 1rem;
+}
+.perf-logo {
+  width: 40%;
 }
 #footer {
   background-color: #03989e;
