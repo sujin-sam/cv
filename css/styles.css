@@ -9,22 +9,30 @@ body {
   background-color: #03989e;
 }
 .nav {
-  position: absolute;
-  right: 2rem;
-  top: 2rem;
-  padding: 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #03989e;
+  background-image: url("../images/random2-pattern.png");
+  text-align: right;
 }
-.nav-item {
+.owl-img {
   display: inline-block;
-  margin: 0.5rem 1rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  width: 2%;
 }
 .nav-link {
+  display: inline-block;
+  margin: 1rem 1.5rem;
   font-size: 1rem;
-  color: #fff;
+  opacity: 1;
+  color: #eeeeee;
   text-decoration: none;
 }
 .nav-link:hover {
-  color: #055658;
+  color: black;
 }
 .my-name {
   text-align: center;
@@ -44,12 +52,6 @@ h1 {
 }
 h1:hover > .gr-icon {
   color: black;
-}
-.owl-img {
-  width: 5%;
-  position: relative;
-  left: 2rem;
-  display: block;
 }
 #work {
   background-color: #eeeeee;
