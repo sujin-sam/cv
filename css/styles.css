@@ -52,7 +52,7 @@ h1:hover > .gr-icon {
   display: block;
 }
 #work {
-  background-color: #fff;
+  background-color: #eeeeee;
   padding: 10% 15%;
 }
 .work-div {
@@ -83,15 +83,14 @@ h1:hover > .gr-icon {
   background-image: url("../images/bright-squares.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5% 10%;
-  padding-top: 3%;
+  padding: 3% 10% 5%;
 }
 .tech-title {
   font-size: 2.5rem;
-  color: #fff;
+  color: #eeeeee;
 }
 .tech-head {
-  color: #fff;
+  color: #eeeeee;
 }
 .tech-card {
   margin: 4% 8%;
@@ -102,7 +101,7 @@ h1:hover > .gr-icon {
 }
 .tech-name {
   border-radius: 2rem 2rem 0 0;
-  background-color: #fff;
+  background-color: #eeeeee;
   box-shadow: 0 0 0.5rem 0.05rem #393e46;
   padding: 3rem 1rem;
 }
@@ -117,7 +116,7 @@ h1:hover > .gr-icon {
   padding: 1rem;
 }
 #protocols {
-  background-color: #fff;
+  background-color: #eeeeee;
   padding: 3% 10% 5%;
 }
 .protocol-title {
@@ -151,7 +150,89 @@ h1:hover > .gr-icon {
   padding-left: 1.5rem;
   font-weight: bold;
 }
-#footer {
+#tools {
   background-color: #03989e;
+  background-image: url("../images/random3-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 10% 5%;
+}
+.tools-title {
+  font-size: 2.5rem;
+  color: #eeeeee;
+}
+.tools-desc {
+  color: #eeeeee;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.script-div,
+.execution-div,
+.monitoring-div,
+.client-perf-div,
+.programming-div {
+  width: 80%;
+  border-radius: 2rem;
+  background-color: #eeeeee;
+  box-shadow: 0 0 0.5rem 0.05rem #393e46;
+  padding: 3% 5%;
+  margin: 5%;
+}
+.tool-head {
+  color: #055658;
+}
+.tool-p {
+  color: #393e46;
+}
+.script-row,
+.execution-row,
+.monitoring-row,
+.client-perf-row,
+.programming-row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2rem 0;
+}
+.script-tool,
+.execution-tool,
+.monitoring-tool,
+.client-perf-tool,
+.programming-tool {
+  width: 33%;
+  text-align: center;
+}
+.script-level,
+.execution-level,
+.monitoring-level,
+.client-perf-level,
+.programming-level {
+  padding: 1rem 0.5rem 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-circle {
+  color: #03989e;
+}
+.fa-outer {
+  color: black;
+  position: absolute;
+}
+.tool-level {
+  position: absolute;
+  z-index: 1;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.tool-outOf {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.tool-name {
+  font-weight: bold;
+}
+#footer {
+  background-color: #eeeeee;
   padding: 15%;
 }
