@@ -335,7 +335,37 @@ h1:hover > .gr-icon {
   color: #055658;
   font-weight: bold;
 }
-#footer {
+#contact {
   background-color: #03989e;
-  padding: 15%;
+  padding: 3% 10% 5%;
+}
+.contact-title {
+  font-size: 2.5rem;
+  color: #eeeeee;
+}
+.contact-head {
+  color: #eeeeee;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.fa-contact {
+  padding: 1rem;
+  font-size: 1.5rem;
+  width: 2%;
+}
+.contact-detail {
+  color: #eeeeee;
+}
+.personal a {
+  text-decoration: none;
+}
+#attribution {
+  background-color: #fff;
+  padding: 3% 10% 5%;
+}
+.attribution-title {
+  color: #055658;
+}
+.attribution-item {
+  margin: 1.5rem 2rem;
 }
