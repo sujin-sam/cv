@@ -172,7 +172,8 @@ h1:hover > .gr-icon {
 .execution-div,
 .monitoring-div,
 .client-perf-div,
-.programming-div {
+.programming-div,
+.ft-div {
   width: 80%;
   border-radius: 2rem;
   background-color: #eeeeee;
@@ -190,7 +191,8 @@ h1:hover > .gr-icon {
 .execution-row,
 .monitoring-row,
 .client-perf-row,
-.programming-row {
+.programming-row,
+.ft-row {
   display: flex;
   flex-flow: row wrap;
   margin: 2rem 0;
@@ -199,7 +201,8 @@ h1:hover > .gr-icon {
 .execution-tool,
 .monitoring-tool,
 .client-perf-tool,
-.programming-tool {
+.programming-tool,
+.ft-tool {
   width: 33%;
   text-align: center;
 }
@@ -207,7 +210,8 @@ h1:hover > .gr-icon {
 .execution-level,
 .monitoring-level,
 .client-perf-level,
-.programming-level {
+.programming-level,
+.ft-level {
   padding: 1rem 0.5rem 0.3rem;
   display: flex;
   align-items: center;
@@ -233,6 +237,24 @@ h1:hover > .gr-icon {
 }
 .tool-name {
   font-weight: bold;
+}
+.utility-title {
+  color: #055658;
+}
+.utility-list {
+  list-style: none;
+  line-height: 3;
+}
+.utility-item {
+  font-size: 0.8rem;
+}
+.utility-item::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px;
+  border-color: transparent transparent transparent#055658;
 }
 #projects {
   background-color: #eeeeee;
