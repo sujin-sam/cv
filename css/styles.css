@@ -10,7 +10,7 @@ body {
 }
 .nav {
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   background-color: #03989e;
   background-image: url("../images/random2-pattern.png");
@@ -20,7 +20,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 1rem;
-  top: 0.5rem;
+  top: 0.7rem;
   width: 2%;
 }
 .nav-link {
@@ -234,7 +234,86 @@ h1:hover > .gr-icon {
 .tool-name {
   font-weight: bold;
 }
-#footer {
+#projects {
   background-color: #eeeeee;
+  padding: 3% 10% 5%;
+}
+.project-title {
+  font-size: 2.5rem;
+  color: #055658;
+}
+.project-p {
+  color: #055658;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.timeline {
+  width: 80%;
+  position: relative;
+  margin-top: 4rem;
+}
+.fa-timeline-outer {
+  position: absolute;
+  color: black;
+  z-index: 2;
+  top: 20%;
+  left: -2.45rem;
+  font-size: 1.2rem;
+}
+.fa-timeline {
+  position: absolute;
+  color: #03989e;
+  top: 20%;
+  left: -2.45rem;
+  z-index: 1;
+  font-size: 1.2rem;
+}
+.timeline-box {
+  position: relative;
+  left: 8rem;
+  width: 50%;
+  border: 1px solid #055658;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 3rem 3rem 3rem 0;
+  box-shadow: 0px 20px 25px -15px rgba(0, 0, 0, 0.3);
+  line-height: 1.5;
+}
+.timeline-box::before {
+  content: "";
+  width: 5px;
+  height: 170%;
+  background-color: #055658;
+  position: absolute;
+  left: -2rem;
+  top: -2rem;
+}
+.timeline-date {
+  margin: 0;
+  padding-bottom: 1rem;
+  color: #055658;
+}
+.timeline-date::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 20%;
+  left: -15px;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #055658 transparent;
+}
+.timeline-desc {
+  margin: 0;
+  font-size: 0.7rem;
+}
+.project-name,
+.phases {
+  color: #055658;
+  font-weight: bold;
+}
+#footer {
+  background-color: #03989e;
   padding: 15%;
 }
