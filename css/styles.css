@@ -34,6 +34,33 @@ body {
 .nav-link:hover {
   color: black;
 }
+.tools-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.tools-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eeeeee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 1rem;
+  text-align: left;
+}
+.tools-dropdown:hover .tools-dropdown-content {
+  display: block;
+}
+.tool-dd-item {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #055658;
+}
+.tool-dd-item:hover {
+  background-color: #03989e;
+  color: #eeeeee;
+}
 .my-name {
   text-align: center;
   padding: 15% 15% 10%;
