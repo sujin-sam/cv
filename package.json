@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "my cv",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujin-sam/cv.git"
+  },
+  "author": "Sujin Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujin-sam/cv/issues"
+  },
+  "homepage": "https://github.com/sujin-sam/cv#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
