@@ -364,6 +364,7 @@ h1:hover > .gr-icon {
 }
 #contact {
   background-color: #03989e;
+  background-image: url("../images/random-pattern.png");
   padding: 3% 10% 5%;
 }
 .contact-title {
@@ -382,6 +383,9 @@ h1:hover > .gr-icon {
 }
 .contact-detail {
   color: #eeeeee;
+}
+.personal {
+  margin: 3% 5%;
 }
 .personal a {
   text-decoration: none;

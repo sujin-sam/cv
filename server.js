@@ -1,18 +1,14 @@
 const express = require("express");
 const app = express();
+const port = 3100;
 
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.get("/css/styles.css", function (req, res) {
-  res.sendFile(__dirname + req.originalUrl);
-});
+app.use("/css", express.static(__dirname + "/css"));
+app.use("/images", express.static(__dirname + "/images"));
 
-app.get("/images/*", function (req, res) {
-  res.sendFile(__dirname + req.originalUrl);
-});
-
-app.listen(3100, function () {
-  console.log("cv server running at 3100");
+app.listen(port, () => {
+  console.log("cv server running at http://localhost:" + port);
 });
