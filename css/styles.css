@@ -493,9 +493,11 @@ h1:hover > .gr-icon {
 }
 .tools-title{
   font-size: 4rem;
+  padding-left: 7%;  
 }
 .tools-desc{
   font-size: 1.2rem;
+  padding-left: 7%;  
 }
 .tool-head{
   font-size: 2.5rem; 
@@ -533,10 +535,7 @@ h1:hover > .gr-icon {
 .tool-level {
   font-size: 3.5rem;
 }
-.tool-outOf {
-  font-size: 1.5rem;
-}
-.tool-name{
+.tool-outOf, .tool-name, .tool-p {
   font-size: 1.7rem;
 }
 .utility-title{
