@@ -180,7 +180,6 @@ h1:hover > .gr-icon {
 .protocol-box {
   background-color: #aad8d3;
   width: 70%;
-  height: 3rem;
   border: 2px solid;
   border-radius: 8px;
   box-shadow: 0 0 3px 2px #aad8d3;
@@ -446,6 +445,12 @@ h1:hover > .gr-icon {
   padding-top: 10%;
   padding-bottom: 15%; 
 }
+.tech-title{
+  font-size: 4rem;
+}
+.tech-head {
+  font-size: 1.5rem;
+}
 .tech-row{
   justify-content: center;
 }
@@ -465,5 +470,22 @@ h1:hover > .gr-icon {
 .tech-desc p{
   font-size: 1.5rem;
 }
+#protocols {
+  padding-top: 10%;
+  padding-bottom: 15%; 
+}
+.protocol-title{
+  font-size: 4rem;
+}
+.protocol-div{
+  width: 70%;
+}
+.protocol-box{
+  margin: 1rem;
+}
+.protocol-box p{
+  font-size: 1.7rem;
+}
+
 
 }
