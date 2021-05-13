@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #heading {
-  background-image: url("../images/crystal-pattern.png");
+  background-image: url("../images/random2-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #03989e;
@@ -187,7 +187,7 @@ h1:hover > .gr-icon {
 }
 #tools {
   background-color: #03989e;
-  background-image: url("../images/random3-pattern.png");
+  background-image: url("../images/crystal-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3% 10% 5%;
@@ -405,4 +405,18 @@ h1:hover > .gr-icon {
 }
 .attribution-item {
   margin: 1.5rem 2rem;
+}
+
+@media only screen and (max-device-width: 600px) {
+
+.my-name{
+  padding: 20% 17%
+}
+ h1{
+  font-size: 5rem;
+ }
+.so {
+  font-size: 2.7rem;
+}
+  
 }
