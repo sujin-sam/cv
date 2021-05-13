@@ -121,6 +121,10 @@ h1:hover > .gr-icon {
   background-size: cover;
   padding: 3% 10% 5%;
 }
+.tech-row{
+  display: flex;
+  flex-flow: row wrap;
+}
 .tech-title {
   font-size: 2.5rem;
   color: #eeeeee;
@@ -437,6 +441,29 @@ h1:hover > .gr-icon {
 }
 .perf-logo{
   width: 20%;
+}
+#tech {
+  padding-top: 10%;
+  padding-bottom: 15%; 
+}
+.tech-row{
+  justify-content: center;
+}
+.tech-card{
+  width: 35%;
+  margin: 8rem auto;
+}
+.tech-name{
+  padding: 5rem 2rem; 
+}
+.tech-name h3{
+  font-size: 2rem;
+}
+.tech-desc{
+  padding: 2rem 1rem;
+}
+.tech-desc p{
+  font-size: 1.5rem;
 }
 
 }
