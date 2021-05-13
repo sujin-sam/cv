@@ -292,6 +292,8 @@ h1:hover > .gr-icon {
   border-style: solid;
   border-width: 3px;
   border-color: transparent transparent transparent#055658;
+  position: relative;
+  right: 0.5rem;
 }
 #projects {
   background-color: #eeeeee;
@@ -487,8 +489,7 @@ h1:hover > .gr-icon {
   font-size: 1.7rem;
 }
 #tools{
-  padding-top: 10%;
-  padding-bottom: 15%; 
+  padding: 10% 3% 15%;
 }
 .tools-title{
   font-size: 4rem;
@@ -505,7 +506,7 @@ h1:hover > .gr-icon {
 .client-perf-div,
 .programming-div,
 .ft-div{
-  margin: 10% 5%;
+  margin: 10% auto;
 }
 .script-tool,
 .execution-tool,
@@ -537,6 +538,12 @@ h1:hover > .gr-icon {
 }
 .tool-name{
   font-size: 1.7rem;
+}
+.utility-title{
+  font-size: 2.5rem;
+}
+.utility-item{
+  font-size: 1rem;
 }
 
 }
