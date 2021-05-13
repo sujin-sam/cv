@@ -544,5 +544,66 @@ h1:hover > .gr-icon {
 .utility-item{
   font-size: 1rem;
 }
+#projects{
+  padding: 10% 5% 15%;
+}
+.project-title{
+  font-size: 4rem;
+  padding-left: 3%;
+}
+.project-p{
+  font-size: 1.2rem;
+  padding-left: 3%;
+}
+.timeline {
+  width: 90%;
+  margin-top: 5rem;
+}
+.fa-timeline-outer {
+  left: -3.7rem;
+  top: 15%;
+  font-size: 2.3rem;
+}
+.fa-timeline {
+  left: -3.7rem;
+  top: 15%;
+  font-size: 2.3rem;
+}
+.timeline-box {
+  left: 8rem;
+  width: 80%;
+  margin: 5rem 5rem 5rem 0;
+}
+.timeline-box::before {
+  width: 14px;
+  height: 160%;
+  left: -3rem;
+  top: -3rem;
+}
+.timeline-date {
+  margin: 0;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+.timeline-date::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 20%;
+  left: -15px;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #055658 transparent;
+}
+.timeline-desc {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.project-name,
+.phases {
+  color: #055658;
+  font-weight: bold;
+}
 
 }
