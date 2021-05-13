@@ -486,6 +486,57 @@ h1:hover > .gr-icon {
 .protocol-box p{
   font-size: 1.7rem;
 }
-
+#tools{
+  padding-top: 10%;
+  padding-bottom: 15%; 
+}
+.tools-title{
+  font-size: 4rem;
+}
+.tools-desc{
+  font-size: 1.2rem;
+}
+.tool-head{
+  font-size: 2.5rem; 
+}
+.script-div,
+.execution-div,
+.monitoring-div,
+.client-perf-div,
+.programming-div,
+.ft-div{
+  margin: 10% 5%;
+}
+.script-tool,
+.execution-tool,
+.monitoring-tool,
+.client-perf-tool,
+.programming-tool
+{
+  width: 50%;
+}
+.ft-tool{
+  width: 100%;
+}
+.script-level,
+.execution-level,
+.monitoring-level,
+.client-perf-level,
+.programming-level,
+.ft-level {
+  padding: 1rem 0.5rem 0.3rem;
+}
+#tools i{
+  font-size: 9rem;
+}
+.tool-level {
+  font-size: 3.5rem;
+}
+.tool-outOf {
+  font-size: 1.5rem;
+}
+.tool-name{
+  font-size: 1.7rem;
+}
 
 }
