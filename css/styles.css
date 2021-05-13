@@ -388,18 +388,22 @@ h1:hover > .gr-icon {
   font-size: 1rem;
   margin-bottom: 2rem;
 }
-.fa-contact {
-  padding: 1rem;
-  font-size: 1.5rem;
-  width: 2%;
+.contact-div{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 3rem;
 }
-.contact-detail {
+.personal{
+  width: 4%;
+}
+.fa-contact {
+  font-size: 1.5rem;
+}
+.contact-detail{
   color: #eeeeee;
 }
-.personal {
-  margin: 3% 5%;
-}
-.personal a {
+.personal-desc a{
   text-decoration: none;
 }
 #attribution {
@@ -604,6 +608,28 @@ h1:hover > .gr-icon {
 .phases {
   color: #055658;
   font-weight: bold;
+}
+#contact {
+  padding: 10% 10% 15%;
+}
+.contact-title {
+  font-size: 4rem;
+}
+.contact-head {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.contact-div{
+  margin: 5rem 5rem 5rem 0;
+}
+.personal{
+  width: 12%;
+}
+.fa-contact {
+  font-size: 3rem;
+}
+.contact-detail{
+  font-size: 2.3rem;
 }
 
 }
