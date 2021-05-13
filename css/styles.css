@@ -416,9 +416,26 @@ h1:hover > .gr-icon {
 .attribution-item {
   margin: 1.5rem 2rem;
 }
+.attribution-item a{
+  text-decoration: none;
+}
 
 @media only screen and (max-device-width: 600px) {
 
+.owl-img {
+  width: 5%;
+}
+.nav-link {
+  font-size: 2rem;
+}
+.tools-dropdown-content {
+  min-width: 200px;
+  border-radius: 1rem;
+}
+.tool-dd-item {
+  padding: 1.2rem;
+  font-size: 2rem;
+}
 .my-name{
   padding: 25% 17%
 }
