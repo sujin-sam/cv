@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #heading {
-  background-image: url("../images/random2-pattern.png");
+  background-image: url("../images/bright-squares.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #03989e;
@@ -13,7 +13,7 @@ body {
   z-index: 3;
   width: 100%;
   background-color: #03989e;
-  background-image: url("../images/random2-pattern.png");
+  background-image: url("../images/bright-squares.png");
   text-align: right;
 }
 .owl-img {
@@ -191,7 +191,7 @@ h1:hover > .gr-icon {
 }
 #tools {
   background-color: #03989e;
-  background-image: url("../images/crystal-pattern.png");
+  background-image: url("../images/bright-squares.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3% 10% 5%;
@@ -376,7 +376,7 @@ h1:hover > .gr-icon {
 }
 #contact {
   background-color: #03989e;
-  background-image: url("../images/random-pattern.png");
+  background-image: url("../images/bright-squares.png");
   padding: 3% 10% 5%;
 }
 .contact-title {
@@ -403,6 +403,9 @@ h1:hover > .gr-icon {
 .contact-detail{
   color: #eeeeee;
 }
+.personal-desc{
+  font-size: 1.3rem;
+}
 .personal-desc a{
   text-decoration: none;
 }
@@ -420,7 +423,7 @@ h1:hover > .gr-icon {
   text-decoration: none;
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 1280px) {
 
 .owl-img {
   width: 5%;
@@ -553,10 +556,13 @@ h1:hover > .gr-icon {
 #tools i{
   font-size: 9rem;
 }
+.tool-p{
+  font-size: 1rem;
+}
 .tool-level {
   font-size: 3.5rem;
 }
-.tool-outOf, .tool-name, .tool-p {
+.tool-outOf, .tool-name,.ft-div .tool-p {
   font-size: 1.7rem;
 }
 .utility-title{
