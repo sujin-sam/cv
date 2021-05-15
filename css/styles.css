@@ -27,12 +27,16 @@ body {
   display: inline-block;
   margin: 1rem 1.5rem;
   font-size: 1rem;
-  opacity: 1;
   color: #eeeeee;
   text-decoration: none;
 }
 .nav-link:hover {
   color: black;
+}
+.fa-sort-down{
+  font-size: 1rem;
+  position: relative;
+  bottom: 2px;
 }
 .tools-dropdown {
   position: relative;
@@ -61,9 +65,14 @@ body {
   background-color: #03989e;
   color: #eeeeee;
 }
+.nav-icon{
+  margin: 1rem 1.5rem;
+  color: #fff;
+  display: none;
+}
 .my-name {
   text-align: center;
-  padding: 15% 15% 10%;
+  padding: 15%;
 }
 h1 {
   color: #fff;
@@ -425,235 +434,258 @@ h1:hover > .gr-icon {
 
 @media only screen and (max-device-width: 1280px) {
 
-.owl-img {
-  width: 5%;
-}
-.nav-link {
-  font-size: 2rem;
-}
-.tools-dropdown-content {
-  min-width: 200px;
-  border-radius: 1rem;
-}
-.tool-dd-item {
-  padding: 1.2rem;
-  font-size: 2rem;
-}
-.my-name{
-  padding: 25% 17%
-}
- h1{
-  font-size: 5rem;
- }
-.so {
-  font-size: 2.7rem;
-}
-#work {
-  padding: 12% 10%;
-}
-.work-item{
-  width: 100%;
-} 
-.role-desc {
-  font-size: 4rem;
-}
-.exp-desc{
-  font-size: 2rem;
-}
-.perf-logo-div{
-  width: 100%;
-  margin-top: 3rem;
-}
-.perf-logo{
-  width: 20%;
-}
-#tech {
-  padding-top: 10%;
-  padding-bottom: 15%; 
-}
-.tech-title{
-  font-size: 4rem;
-}
-.tech-head {
-  font-size: 1.5rem;
-}
-.tech-row{
-  justify-content: center;
-}
-.tech-card{
-  width: 35%;
-  margin: 8rem auto;
-}
-.tech-name{
-  padding: 5rem 2rem; 
-}
-.tech-name h3{
-  font-size: 2rem;
-}
-.tech-desc{
-  padding: 2rem 1rem;
-}
-.tech-desc p{
-  font-size: 1.5rem;
-}
-#protocols {
-  padding-top: 10%;
-  padding-bottom: 15%; 
-}
-.protocol-title{
-  font-size: 4rem;
-}
-.protocol-div{
-  width: 70%;
-}
-.protocol-box{
-  margin: 1rem;
-}
-.protocol-box p{
-  font-size: 1.7rem;
-}
-#tools{
-  padding: 10% 3% 15%;
-}
-.tools-title{
-  font-size: 4rem;
-  padding-left: 7%;  
-}
-.tools-desc{
-  font-size: 1.2rem;
-  padding-left: 7%;  
-}
-.tool-head{
-  font-size: 2.5rem; 
-}
-.script-div,
-.execution-div,
-.monitoring-div,
-.client-perf-div,
-.programming-div,
-.ft-div{
-  margin: 10% auto;
-}
-.script-tool,
-.execution-tool,
-.monitoring-tool,
-.client-perf-tool,
-.programming-tool
-{
-  width: 50%;
-}
-.ft-tool{
-  width: 100%;
-}
-.script-level,
-.execution-level,
-.monitoring-level,
-.client-perf-level,
-.programming-level,
-.ft-level {
-  padding: 1rem 0.5rem 0.3rem;
-}
-#tools i{
-  font-size: 9rem;
-}
-.tool-p{
-  font-size: 1rem;
-}
-.tool-level {
-  font-size: 3.5rem;
-}
-.tool-outOf, .tool-name,.ft-div .tool-p {
-  font-size: 1.7rem;
-}
-.utility-title{
-  font-size: 2.5rem;
-}
-.utility-item{
-  font-size: 1rem;
-}
-#projects{
-  padding: 10% 5% 15%;
-}
-.project-title{
-  font-size: 4rem;
-  padding-left: 3%;
-}
-.project-p{
-  font-size: 1.2rem;
-  padding-left: 3%;
-}
-.timeline {
-  width: 90%;
-  margin-top: 5rem;
-}
-.fa-timeline-outer {
-  left: -3.7rem;
-  top: 15%;
-  font-size: 2.3rem;
-}
-.fa-timeline {
-  left: -3.7rem;
-  top: 15%;
-  font-size: 2.3rem;
-}
-.timeline-box {
-  left: 8rem;
-  width: 80%;
-  margin: 5rem 5rem 5rem 0;
-}
-.timeline-box::before {
-  width: 14px;
-  height: 160%;
-  left: -3rem;
-  top: -3rem;
-}
-.timeline-date {
-  margin: 0;
-  font-size: 1.7rem;
-  padding-bottom: 1rem;
-}
-.timeline-date::before {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  width: 0;
-  height: 0;
-  top: 20%;
-  left: -15px;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #055658 transparent;
-}
-.timeline-desc {
-  margin: 0;
-  font-size: 1.5rem;
-}
-.project-name,
-.phases {
-  color: #055658;
-  font-weight: bold;
-}
-#contact {
-  padding: 10% 10% 15%;
-}
-.contact-title {
-  font-size: 4rem;
-}
-.contact-head {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
-}
-.contact-div{
-  margin: 5rem 5rem 5rem 0;
-}
-.personal{
-  width: 12%;
-}
-.fa-contact {
-  font-size: 3rem;
-}
-.contact-detail{
-  font-size: 2.3rem;
-}
+  .nav-icon{
+    display: inline-block;
+    font-size: 4.2rem;
+    padding: 0.5rem 1rem 0;
+  }
+  .nav-link{
+    display: none;
+    margin: 0;
+  }
+  .nav-item{
+    display: block;
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 1.8rem;
+    font-size: 2.2rem;
+  }
+  .nav-item:hover{
+    background-color: #eeeeee;
+    color: #055658;
+  }
+  .nav-content{
+    display: block;
+    position: absolute;
+    background-color: #03989e;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+  }
+  .owl-img {
+    width: 6%;
+    top: 1.8rem;
+    margin: 0;
+  }
+  .my-name{
+    padding: 25% 17%
+  }
+   h1{
+    font-size: 5rem;
+   }
+  .so {
+    font-size: 2.7rem;
+  }
+  #work {
+    padding: 12% 10%;
+  }
+  .work-item{
+    width: 100%;
+  } 
+  .role-desc {
+    font-size: 4rem;
+  }
+  .exp-desc{
+    font-size: 2rem;
+  }
+  .perf-logo-div{
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .perf-logo{
+    width: 20%;
+  }
+  #tech {
+    padding-top: 10%;
+    padding-bottom: 15%; 
+  }
+  .tech-title{
+    font-size: 4rem;
+  }
+  .tech-head {
+    font-size: 1.5rem;
+  }
+  .tech-row{
+    justify-content: center;
+  }
+  .tech-card{
+    width: 35%;
+    margin: 8rem auto;
+  }
+  .tech-name{
+    padding: 5rem 2rem; 
+  }
+  .tech-name h3{
+    font-size: 2rem;
+  }
+  .tech-desc{
+    padding: 2rem 1rem;
+  }
+  .tech-desc p{
+    font-size: 1.5rem;
+  }
+  #protocols {
+    padding-top: 10%;
+    padding-bottom: 15%; 
+  }
+  .protocol-title{
+    font-size: 4rem;
+  }
+  .protocol-div{
+    width: 70%;
+  }
+  .protocol-box{
+    margin: 1rem;
+  }
+  .protocol-box p{
+    font-size: 1.7rem;
+  }
+  #tools{
+    padding: 10% 3% 15%;
+  }
+  .tools-title{
+    font-size: 4rem;
+    padding-left: 7%;  
+  }
+  .tools-desc{
+    font-size: 1.2rem;
+    padding-left: 7%;  
+  }
+  .tool-head{
+    font-size: 2.5rem; 
+  }
+  .script-div,
+  .execution-div,
+  .monitoring-div,
+  .client-perf-div,
+  .programming-div,
+  .ft-div{
+    margin: 10% auto;
+  }
+  .script-tool,
+  .execution-tool,
+  .monitoring-tool,
+  .client-perf-tool,
+  .programming-tool
+  {
+    width: 50%;
+  }
+  .ft-tool{
+    width: 100%;
+  }
+  .script-level,
+  .execution-level,
+  .monitoring-level,
+  .client-perf-level,
+  .programming-level,
+  .ft-level {
+    padding: 1rem 0.5rem 0.3rem;
+  }
+  #tools i{
+    font-size: 9rem;
+  }
+  .tool-p{
+    font-size: 1rem;
+  }
+  .tool-level {
+    font-size: 3.5rem;
+  }
+  .tool-outOf, .tool-name,.ft-div .tool-p {
+    font-size: 1.7rem;
+  }
+  .utility-title{
+    font-size: 2.5rem;
+  }
+  .utility-item{
+    font-size: 1rem;
+  }
+  #projects{
+    padding: 10% 5% 15%;
+  }
+  .project-title{
+    font-size: 4rem;
+    padding-left: 3%;
+  }
+  .project-p{
+    font-size: 1.2rem;
+    padding-left: 3%;
+  }
+  .timeline {
+    width: 90%;
+    margin-top: 5rem;
+  }
+  .fa-timeline-outer {
+    left: -3.7rem;
+    top: 15%;
+    font-size: 2.3rem;
+  }
+  .fa-timeline {
+    left: -3.7rem;
+    top: 15%;
+    font-size: 2.3rem;
+  }
+  .timeline-box {
+    left: 8rem;
+    width: 80%;
+    margin: 5rem 5rem 5rem 0;
+  }
+  .timeline-box::before {
+    width: 14px;
+    height: 160%;
+    left: -3rem;
+    top: -3rem;
+  }
+  .timeline-date {
+    margin: 0;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+  .timeline-date::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 20%;
+    left: -15px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #055658 transparent;
+  }
+  .timeline-desc {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .project-name,
+  .phases {
+    color: #055658;
+    font-weight: bold;
+  }
+  #contact {
+    padding: 10% 10% 15%;
+  }
+  .contact-title {
+    font-size: 4rem;
+  }
+  .contact-head {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .contact-div{
+    margin: 5rem 5rem 5rem 0;
+  }
+  .personal{
+    width: 12%;
+  }
+  .fa-contact {
+    font-size: 3rem;
+  }
+  .contact-detail{
+    font-size: 2.2rem;
+  }
+  .attribution-item{
+    font-size: 0.7rem;
+  }
 
 }
 
@@ -665,5 +697,5 @@ h1:hover > .gr-icon {
   .timeline-box::before {
     height: 170%;
   }
-
+ 
 }
